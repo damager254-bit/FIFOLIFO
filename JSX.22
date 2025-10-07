@@ -1,0 +1,10 @@
+import React from 'react';
+
+const ToggleMethod = ({ method, setMethod }) => (
+  <div>
+    <button onClick={() => setMethod('FIFO')}>FIFO</button>
+    <button onClick={() => setMethod('LIFO')}>LIFO</button>
+  </div>
+);
+
+export default ToggleMethod;
